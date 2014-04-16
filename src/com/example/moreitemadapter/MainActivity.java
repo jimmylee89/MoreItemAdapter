@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
 		lv = (ListView) findViewById(R.id.lv);
 
 		lv.setAdapter(new MyAdapter());
+		System.out.print();
 		
 	}
 
@@ -42,7 +43,7 @@ public class MainActivity extends Activity {
 			if(position == 3 || position == 20){
 				return TYPE_2;
 			}
-			if (position % 2 == 0) { //Å¼Êý
+			if (position % 2 == 0) { //Å¼ï¿½ï¿½
 				return TYPE_1;
 			} else {
 				return TYPE_3;
