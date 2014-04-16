@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
 		lv = (ListView) findViewById(R.id.lv);
 
 		lv.setAdapter(new MyAdapter());
+		System.out.println();
 		
 	}
 
